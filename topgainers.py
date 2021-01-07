@@ -22,7 +22,7 @@ for c in company:
     companyname=data1.h1.text
     actualcompanyname.append(companyname)
 
-print(len(actualcompanyname))
+#print(len(actualcompanyname))
 for i in actualcompanyname:
     if 'Ltd. ' in i:
         var=i.replace('Ltd. ' ,'Limited')
